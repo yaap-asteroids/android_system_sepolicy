@@ -1960,3 +1960,6 @@ service.aiseal. u:object_r:aiseal_prop:s0
 
 # Wear dynamic thermal profile property
 thermal.dynamic_config_profile    u:object_r:thermal_profile_prop:s0 exact enum default setup kids_setup kids
+
+
+persist.sys.integrity.enabled u:object_r:integrity_enabled_prop:s0 exact bool

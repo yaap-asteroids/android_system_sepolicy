@@ -901,3 +901,5 @@ neverallow { appdomain -traceur_app -platform_app_all -system_app -shell } trace
 
 # Apps only need to use the dma-buf ioctls on wrapfds, and no other ioctls.
 neverallowxperm appdomain system_server_wrapfd:anon_inode ioctl ~{ dma_buf_ioctls };
+
+get_prop(appdomain, integrity_enabled_prop)

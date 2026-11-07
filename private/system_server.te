@@ -1921,3 +1921,6 @@ set_prop(system_server, thermal_profile_prop)
 # wrapfd device node and the wrapfds.
 neverallowxperm system_server wrapfd_device:chr_file ioctl ~{ WRAPFD_DEV_IOC_WRAP };
 neverallowxperm system_server system_server_wrapfd:anon_inode ioctl ~{ dma_buf_ioctls wrapfd_ioctls };
+
+
+set_prop(system_server, integrity_enabled_prop)

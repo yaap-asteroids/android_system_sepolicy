@@ -917,3 +917,6 @@ neverallow {
     -init
     -statsd
 } statsd_atoms_list_version_prop:property_service set;
+
+
+system_restricted_prop(integrity_enabled_prop)
